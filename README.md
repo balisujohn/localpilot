@@ -15,3 +15,6 @@ You need to be running a codellama model in text generation webui with the API m
 
 ## Contributing
 Since I just set this up so I could use it, it's not documented well and also may be difficult to set up, feel free to contribute improvements and instructions.
+
+## Credits
+Template generated with https://github.com/Microsoft/vscode-generator-code
