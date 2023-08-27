@@ -2,6 +2,10 @@
 
 A very simple vscode extension for using codellama via oobabooga text generation webui. 
 
+
+## How to use
+There's no vsix file for this, the way I run it is by opening the top level folder of the repo in vscodium(alternatively vscode), then from the `Run` menu selecting `Start Debugging`. A contribution to provide a vsix file or strategy to generate it would be welcome, since I'm not sure how to generate one from this template-derived repo.
+
 ## Features
 
 You select the text that is to be the prompt, then you call the "extendSelection" command and 10 characters are generated with codellama and appended. 
