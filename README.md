@@ -18,7 +18,7 @@ Since I just set this up so I could use it, it's not documented well and also ma
 
 
 ## License
-
+MIT
 
 
 ## Credits
