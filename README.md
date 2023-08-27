@@ -16,6 +16,8 @@ vsce package
 ````
 Which will generate a vsix file. 
 
+You can load this file directly from vscode or vscodium as an extension.
+
 ## Features
 
 You select the text that is to be the prompt, then you call the "extendSelection" command and 10 characters are generated with codellama and appended. 
