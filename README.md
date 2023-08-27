@@ -4,6 +4,8 @@ A very simple vscode extension for using codellama via oobabooga text generation
 
 ## How to use
 
+Tested on Ubuntu with `node` version v14.20.0 and `npm` version 6.14.17
+
 First clone the repository, then run 
 ````
 npm install
