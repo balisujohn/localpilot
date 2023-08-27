@@ -1,6 +1,6 @@
 # localpilot README
 
-A very simple vscode extension for using codellama via oobabooga text generation webui. Feel free to make issues describing features you want or questions you have about setup.
+A very simple vscode extension for using codellama via oobabooga text generation webui. Doesn't require a GPU; recommended for use with https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML. Feel free to make issues describing features you want or questions you have about setup.
 
 ## How to use
 
