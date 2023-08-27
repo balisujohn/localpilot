@@ -73,7 +73,7 @@ function activate(context) {
 		.then(data => {
 			let resultText = data['results'][0]['text'];
 			vscode.window.activeTextEditor.edit(edit => {
-				edit.insert(editor.selection.active, resultText)
+				edit.insert(editor.selection.end, resultText)
 			});
 		})
 		.catch(error => {
