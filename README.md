@@ -29,7 +29,7 @@ You select the text that is to be the prompt, then you call the "extendSelection
 You need to be running a codellama model in text generation webui with the API mode enabled on the same machine for this extension to work. In addition, I recommend mapping ctrl-Q to the extendSelection command, since it isn't mapped to a keyboard command by default.
 
 ## Contributing
-Since I just set this up so I could use it, it's not documented well and also may be difficult to set up, feel free to contribute improvements and instructions.
+Feel free to contribute improvements and instructions, also feel free to post feature requests as issues.
 
 
 ## License
