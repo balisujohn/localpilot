@@ -1,8 +1,23 @@
 # localpilot README
 
-A very simple vscode extension for using codellama via oobabooga text generation webui. Feel free to make issues describing features you want or questions you have about setup.
+![A gif showing localpilot being used to generate an is_prime function in python from its header.](https://github.com/balisujohn/localpilot/assets/20377292/b3952e63-5e26-4bde-9878-9b307f5902d3)
+
+A very simple vscode extension for using codellama via oobabooga text generation webui. Doesn't require a GPU; recommended for use with https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML or https://huggingface.co/TheBloke/WizardCoder-Python-13B-V1.0-GGML. Feel free to make issues describing features you want or questions you have about setup.
 
 ## How to use
+
+### Quick Install
+If you want to set it up with as little hassle as possible, you can install via the pre-built vsix files provided in the most recent release:
+
+Go to [`Releases`](https://github.com/balisujohn/localpilot/releases/), then download the latex vsix file and install in from the vscode/vscodium extensions tab.  Note this is in beta and really unpolished.
+
+### Local Build
+
+
+If you want to modify the extension yourself, you likely will want to build from source. You can do so as follows:
+
+Tested on Ubuntu with `node` version v14.20.0 and `npm` version 6.14.17
+
 
 First clone the repository, then run 
 ````
@@ -36,7 +51,7 @@ You will be prompted for a text-based command, then the selected text will be ed
 You need to be running a codellama model in text generation webui with the API mode enabled on the same machine for this extension to work. 
 
 ## Contributing
-Since I just set this up so I could use it, it's not documented well and also may be difficult to set up, feel free to contribute improvements and instructions.
+Feel free to contribute improvements and instructions, also feel free to post feature requests as issues.
 
 
 ## License
