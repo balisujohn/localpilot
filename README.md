@@ -39,7 +39,7 @@ Both `extendSelection` and `editSelection` become available in command palette. 
 
 ### Extend Selection
 
-The code model will extend the text your currently have highlighted.
+The code model will extend the text you currently have highlighted.
 
 ### Edit Selection
 
