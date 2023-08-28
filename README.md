@@ -6,6 +6,10 @@ A very simple vscode extension for using codellama via oobabooga text generation
 
 Tested on Ubuntu with `node` version v14.20.0 and `npm` version 6.14.17
 
+### Fast Install
+Go to [`Releases`](https://github.com/balisujohn/localpilot/releases/), then download the latex vsix file and install in from the vscode/vscodium extensions tab.  Note this is in beta and really unpolished.
+
+### Local Build
 First clone the repository, then run 
 ````
 npm install
