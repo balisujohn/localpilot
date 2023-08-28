@@ -2,6 +2,7 @@
   "name": "localpilot",
   "displayName": "localpilot",
   "description": "local programming assistance on CPU",
+  "repository":"https://github.com/balisujohn/localpilot",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.81.0"
@@ -16,6 +17,10 @@
       {
         "command": "localpilot.extendSelection",
         "title": "Extend Selection"
+      },
+      {
+        "command": "localpilot.editSelection",
+        "title": "Edit Selection"
       }
     ]
   },
@@ -35,6 +40,7 @@
     "typescript": "^5.1.6"
   },
   "dependencies": {
+    "@vscode/vsce": "^2.20.1",
     "node-fetch": "^2.7.0"
   }
 }

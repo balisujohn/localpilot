@@ -20,11 +20,20 @@ You can load this file directly from vscode or vscodium as an extension.
 
 ## Features
 
-You select the text that is to be the prompt, then you call the "extendSelection" command and 10 characters are generated with codellama and appended. 
+Both `extendSelection` and `editSelection` become available in command palette. I recommend binding them to ctrl-q and ctrl-e respectively. 
+
+### Extend Selection
+
+The code model will extend the text your currently have highlighted.
+
+### Edit Selection
+
+You will be prompted for a text-based command, then the selected text will be edited according to that command. 
+
 
 ## Requirements
 
-You need to be running a codellama model in text generation webui with the API mode enabled on the same machine for this extension to work. In addition, I recommend mapping ctrl-Q to the extendSelection command, since it isn't mapped to a keyboard command by default.
+You need to be running a codellama model in text generation webui with the API mode enabled on the same machine for this extension to work. 
 
 ## Contributing
 Since I just set this up so I could use it, it's not documented well and also may be difficult to set up, feel free to contribute improvements and instructions.
