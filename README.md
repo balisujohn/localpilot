@@ -2,7 +2,7 @@
 
 ![A gif showing localpilot being used to generate an is_prime function in python from its header.](https://github.com/balisujohn/localpilot/assets/20377292/b3952e63-5e26-4bde-9878-9b307f5902d3)
 
-A very simple vscode extension for using codellama via oobabooga text generation webui. Doesn't require a GPU; recommended for use with https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML. Feel free to make issues describing features you want or questions you have about setup.
+A very simple vscode extension for using codellama via oobabooga text generation webui. Doesn't require a GPU; recommended for use with https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML or https://huggingface.co/TheBloke/WizardCoder-Python-13B-V1.0-GGML. Feel free to make issues describing features you want or questions you have about setup.
 
 ## How to use
 
