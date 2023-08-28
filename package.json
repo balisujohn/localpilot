@@ -3,7 +3,7 @@
   "displayName": "localpilot",
   "description": "local programming assistance on CPU",
   "repository":"https://github.com/balisujohn/localpilot",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.81.0"
   },
