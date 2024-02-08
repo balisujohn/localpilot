@@ -1,6 +1,6 @@
 # localpilot README
+![A gif showing localpilot's editSelection function being used to change an addition function to a multiplication function](https://github.com/balisujohn/localpilot/assets/20377292/be157d36-e27e-412b-a7bd-8e441de054d0)
 
-![A gif showing localpilot being used to generate an is_prime function in python from its header.](https://github.com/balisujohn/localpilot/assets/20377292/b3952e63-5e26-4bde-9878-9b307f5902d3)
 
 A very simple vscode extension for using codellama via oobabooga text generation webui. Doesn't require a GPU; recommended for use with https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML or https://huggingface.co/TheBloke/WizardCoder-Python-13B-V1.0-GGML. Feel free to make issues describing features you want or questions you have about setup.
 
@@ -40,10 +40,11 @@ Both `extendSelection` and `editSelection` become available in command palette. 
 ### Extend Selection
 
 The code model will extend the text you currently have highlighted.
-
+![A gif showing localpilot being used to generate an is_prime function in python from its header.](https://github.com/balisujohn/localpilot/assets/20377292/b3952e63-5e26-4bde-9878-9b307f5902d3)
 ### Edit Selection
 
 You will be prompted for a text-based command, then the selected text will be edited according to that command. 
+![A gif showing localpilot's editSelection function being used to change an addition function to a multiplication function](https://github.com/balisujohn/localpilot/assets/20377292/be157d36-e27e-412b-a7bd-8e441de054d0)
 
 
 ## Requirements
