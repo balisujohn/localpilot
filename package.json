@@ -2,8 +2,8 @@
   "name": "localpilot",
   "displayName": "localpilot",
   "description": "local programming assistance on CPU",
-  "repository":"https://github.com/balisujohn/localpilot",
-  "version": "0.0.2",
+  "repository": "https://github.com/balisujohn/localpilot",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.81.0"
   },
